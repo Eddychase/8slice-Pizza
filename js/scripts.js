@@ -16,7 +16,7 @@ return parseInt(selectToppings);
 
 
 }
-function calctotalPrice(e) {
+function totalPrice(e) {
 event.preventDefault();
 var totalPrice = (getSizeCost() + getCrustCost() + getToppings()) * (getNumber());
 
