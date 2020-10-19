@@ -111,7 +111,7 @@
                     <option value="170">Beef Peperoni @ sh. 170</option>
                     <option value="170">Periperi Chicken @ sh. 170</option>
                 </select>
-                <label for="number">Number of Pizzas</label>
+                <label class="text-white" for="number">Number of Pizzas</label>
                 <input type="number" class="form-control" id="number" placeholder="Total pizzas" min="1" required>
                 <button name="button" type="submit" id="submit" value="Check-Out"
                 onclick="totalPrice()">Submit</button>
@@ -123,19 +123,19 @@
 </div>
 
 <div class="order-summary" id="sum-order">
-    <h1 class="text-center" id="summary">Order Summary</h1>
-    <h2 class="text-center summary">Your order is:</h2>
+    <h1 class="text-center text-white id="summary">Order Summary</h1>
+    <h2 class="text-center text-white summary">Your order is:</h2>
     <ol id="list" class="text-center sum">
     </ol>
     <div class="cdata-overlay">
         <div class="customerdata row">
             <div class="col-sm-3"></div>
             <form action="" class="form-group col-sm-6 data">
-                <label for="name">Name</label>
+                <label class="text-white" for="name">Name</label>
                         <input class="form-control" type="text" name="" id="name" required="required">
-                        <label for="location">Location</label>
+                        <label class="text-white" for="location">Location</label>
                         <input class="form-control" type="text" id="location" placeholder="location...">
-                        <label for="phonenumber">Phone Number</label>
+                        <label class="text-white" for="phonenumber">Phone Number</label>
                         <input class="form-control" type="tel" placeholder="07xxxxxxxx" id="number"> <br>
                         <button type="submit" name="button" id="submit">submit</button>
             </form>
@@ -150,7 +150,7 @@
                 <div class="col-sm-1"></div>
                 <div class="col-sm-5 subs">
                     <h1 class="text-white text-center"> Call Us </h1>
-                    <p class="text-center">Email</p>
+                    <p class="text-center text-white">Email</p>
                     <form>
                         <div class="email-info">
                             <div class="form-group fill-all-form">
@@ -159,7 +159,7 @@
                             </div>
                         </div>
                         <div class=" email-info text-center">
-                            <button class="btn click-me" onclick="subscribe();">Subscribe</button>
+                            <button class="btn click-me text-white" onclick="subscribe();">Subscribe</button>
                         </div>
                     </form>
                 </div>

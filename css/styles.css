@@ -4,9 +4,27 @@
     height: 600px;
 }
 .menu{
-    background-image: url("../images/menu.jpg");
+ background-color: black;
 
 }
 .orders{
     background-color: black;
+}
+.order-summary{
+    background-color: black;
+}
+.navigation{
+    
+    float: inline-start;
+}
+li {
+    display: inline;
+    margin-right: 20px;
+}
+.navbar {
+    font-size: 35px;
+    font-weight: normal;
+    color: darkorange;
+    font-family: cursive;
+    
 }
